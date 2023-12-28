@@ -1,7 +1,6 @@
 {
   "name": "templebars",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "exports": {
     ".": {
@@ -9,8 +8,7 @@
       "require": "./dist/main.cjs.js"
     }
   },
-  "main": "./dist/main.cjs.js",
-  "module": "./dist/main.es.js",
+  "main": "./dist/main.cjs",
   "typings": "./dist/main.d.ts",
   "files": [
     "dist"
